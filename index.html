@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Smart School : School Management System</title>  
+    <meta name="description" content="Smart School : School Management System Ver. 7.0.0 - Documentation">
+    <meta name="author" content="QDOCS">
+    <meta name="copyright" content="QDOCS"> 
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="assets/images/s-favicon.png" rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+ 
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/docmain.min.css">
+    <link rel="stylesheet" href="assets/css/_all-skins.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body class="skin-blue fixed" data-spy="scroll" data-target="#scrollspy">
+    <div class="wrapper">
+      <header class="main-header">
+       <a href="http://smart-school.in" target="_blank" class="logo">
+          <span class="logo-lg"><img src="assets/images/logo.png" alt="Smart School"></span>
+        </a>
+       <nav class="navbar navbar-static-top" role="navigation">
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+              <span class="sidebar-session">Smart School : School Management System</span>
+          </div>
+          <div class="navbar-custom-menu qdocsfix" style="padding: 10px;">
+            <a href="http://qdocs.in/" target="_blank"><img src="assets/images/qdocs-square-logo.png" alt="img" class="" height="30"></a>
+          </div>
+        </nav>
+      </header>
+     
+      <aside class="main-sidebar">
+        <div class="sidebar single-page-nav" id="scrollspy">
+          <ul class="nav sidebar-menu">       
+            <li class="active page-scroll"><a href="#documenter_cover">Start</a></li>
+            <li class="page-scroll"><a href="#sysreq">System Requirements</a></li>
+            <li class="page-scroll"><a href="#install">Installation</a></li>
+			<li class="page-scroll"><a href="#update">Update</a></li>
+            <li class="page-scroll"><a href="#changelog">Changelog</a></li> 			
+            <li class="page-scroll"><a href="#freesupp">Free Help & Support</a></li>
+          </ul>
+        </div>
+      </aside>
+      <div class="content-wrapper">
+        <div class="content body">
+
+<section id="documenter_cover">
+<h1 class="page-header">Smart School : School Management System</h1>
+<h5 style="margin-top: 0px;font-style: italic;">The only software need to run your school Smarter</h5>
+<!--<h2 QDOCS</h2>-->
+<h5><span style="font-size:14px;">By</span><br>
+<a href="http://qdocs.in/" target="_blank"><img src="assets/images/qdocs.png" alt="img" class="" width="150"  /></a></h5>
+<hr> 
+<p>
+          Ver. 7.0.0<br/>
+          Email: <a href="mailto:support@qdocs.net">support@qdocs.net</a><br/>
+          Website: <a href="https://smart-school.in" target="_blank">smart-school.in</a><br/>
+		  Full Documentation: <a href="https://smart-school.in/articles" target="_blank">https://smart-school.in/articles</a><br>
+		  
+                </p>
+                <hr>
+                <p>We would like to thank you for purchasing <b>Smart School </b>! We are very pleased you have chosen <b>Smart School</b> for your institution, you will not be disappointed! Before you get started, please be sure to always check out these documentation files. We outline all kinds of good information, and provide you with all the details you need to use <b>Smart School</b>.
+
+                <p>If you are unable to find your answer here in our documentation, watch our Video Tutorials, you can also visit our Help & Support. Chances are your question or issue have been brought up already and the answer is waiting to be found. If you are unable to find it anywhere, then please go our Support section and open a new Support Ticket with all the details we need. Please be sure to include your site URL as well. Thank you, we hope you enjoy using <b>Smart School</b>!</p>
+
+<a href="http://smart-school.in" class="btn btn-primary button-primary button-primary2">Help & Support</a>
+</section>
+
+
+<!-- ============================================================= -->
+
+<section id="sysreq">
+<h1 class="page-header">System Requirements</h1><hr>
+   <P>To installing <b>Smart School</b>, your web server must be running <b>PHP 8.1 to higher</b> and <b>MYSQL 5.5 or higher (MYSQL 8 supported)</b>. We have tested it with Windows, Mac and Linux but for optimum performance we will recommend to use <b>Linux with Apache webserver</b>. Below are a list of items you should ensure your host can comply with.</P>
+                <ul>
+                    <li>PHP 8.1 to higher </li>
+                    <li>MYSQL 5.5 or higher (MYSQL 8 supported)</li>
+					<li>MYSQL SQL_MODE must not contain ONLY_FULL_GROUP_BY</li>
+                    <li>mod_rewrite Apache</li>               
+                    <li>MBString Extension</li>
+                    <li>MYSQLi Extension</li>					
+                    <li>fileinfo Extension</li>
+                    <li>Zip Extension</li>
+                    <li>CURL Extension (recommended)</li>
+					<li>PHP max_execution_time should be atleast 60 seconds for smoother installation</li>
+					
+					
+                    * In most hosting accounts, these extensions are enabled by default. But you should check with your hosting provider.
+                </ul>
+                <P>Before installation of <b>Smart School</b>, you must make few directories/files writeable so <b>Smart School</b> can work properly. Below are a list of directories/files you should ensure that have write permissions.</P>
+                <ul style="word-wrap: break-word;">
+					<li>installation_dir/application/config/config.php</li>
+                  	<li>installation_dir/application/config/database.php</li>
+					<li>installation_dir/application/config/autoload.php</li>
+					<li>installation_dir/application/config/license.php</li>
+                    <li>installation_dir/temp</li>
+                    <li>installation_dir/backup</li>
+                    <li>installation_dir/backup/database_backup</li>
+                    <li>installation_dir/backup/temp_uploaded</li>
+                    <li>installation_dir/uploads</li>
+                    <li>installation_dir/uploads/&lt;all_its_sub_directories&gt;</li>                   					
+                </ul>
+</section>
+<!--end Requirements-->
+
+<!-- ============================================================= -->
+
+<!--Installation-->
+<section id="install">
+<h1 class="page-header">Smart School Installation</h1><hr>
+  <p>Smart School comes with a simple automatic installer.<p/>
+  <h4>Check YouTube video tutorials for easy installation</h4>
+ <ul>
+ <li><a href="https://youtu.be/M9Ho-1XrMfU" target="_blank">Smart School installation on CPanel</a></li>
+ <li><a href="https://youtu.be/5tOIAOsqg-c" target="_blank">Smart School installation on XAMPP</a></li>
+ <li><a href="https://youtu.be/5ozPkRYMDRM" target="_blank">Smart School installation on WAMP</a></li> 
+ </ul>
+                <h4>- Configure database connection</h4>
+                <p>You need to have previously setup database from the cPanel or your hosting provider.<br/>
+                    Here is a good tutorial <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9363/2180/how-to-create-and-maintain-mysql-databases-in-cpanel" target="_blank">how to setup MySQL database in cPanel</a> if you are not familiar with this.<p/>
+                <ol>
+                    <li>Login to cPanel by accessing www.yourdomain.com/cpanel and navigate go MySQL Databases.</li>
+                    <li>Create database first.</li>
+                    <li>Create user and setup your password.</li>
+                    <li>Add the user to database by selecting the database and the username.</li>
+                </ol>
+                <br/>
+                Make sure you have checked All privileged when adding the user to database.
+                <h4>- Install</h4>
+                <p>Find the folder <b>smart_school_src</b> in your downloaded package from Codecanyon. This folder contains complete source code files need to install Smart School. Upload all the files under this folder to your hosting folder and navigate to your url <b>http://yourdomain.com/</b> . After hitting url <b>http://yourdomain.com/</b> system redirects to <b>http://yourdomain.com/install/start</b> to start installer.<p/>
+                <p>You will need to pass the server requirements in order to install Smart School.<p/>
+                <p><img src="assets/images/install1.png" alt="img" class="img-responsive" /></p>
+                <p>Click Database Setup and populate the fields according to your database setup.</p>
+                <p>If any errors found while connecting you will be notified otherwise you should see the credentials screen</p>
+                <p><img src="assets/images/install2.png" alt="img" class="img-responsive"/></p>
+                <p><b>Enter Super Admin Email and Password for your Admin Panel Login</b></p>
+                <p><img src="assets/images/install3.png" alt="img" class="img-responsive" /></p>
+                <p>Great! You have successfully installed Smart School. Click on "Delete Install Directory and Login" button to go to Admin Login page. </p>
+                <p><img src="assets/images/install4.png" alt="img" class="img-responsive" /></p>
+                <p>If you need help for installation, do not hesitate to open <a href="https://support.qdocs.net">Support Ticket</a></p>
+                <p>After successful installation you need to setup few things about your school. Smart School comes with some predefined data but you still need to configure them as per your school.</p>
+</section>
+
+
+<!--Update-->
+<section id="update">
+	<h1 class="page-header">Upgrading from Previous Version</h1><hr>
+		<h4>One Click Update</h4>
+            <p> Due to <b>PHP and Codeigniter version update</b> there are major changes has been occurred in whole system including configration files so one click update for <b>version 6.4.1 to 7.0.0</b> is not provided and only manual update is possible as described below.</p>           
+            
+        
+			<p hidden>Upon new version release when you reach to <b>System Update</b> page from <b>System Settings > System Update</b> there will be <b>Update Now</b> button visible then click on this <b>Update Now</b> button and follow the instructions. </p>
+			<p class="note hidden" style="box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; background: rgb(255, 248, 242);">
+                    <b hidden>One click update is only available for one time and if you will get failed then contact to our support.</b>
+                </p>              
+                
+                
+			<br><br>
+		<h4>Manual Upgrading from Version 6.4.1 to Version 7.0.0</h4>
+                <p>If you are already using Smart School version 6.4.1 then you should upgrade your Smart School to current version 7.0.0 to get all the new features or fixes if any. The upgrade is pretty simple and will complete in two steps 1. database update and 2. files update. Just follow the steps below and you will get the newest version of Smart School.</p>
+                <p>Check the <a href="#changelog">changelog</a> for changes and bug fixed in this version.</p>
+                
+                <p class="note" style="box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; background: rgb(255, 248, 242);">
+                    <b>Always backup your all files and database before making an upgrade</b>
+                </p>
+
+                <ol>
+					<li>Create backup of all files you have made changes or customized for your features. After upgrade you should replace or re check these files for your changes.</li>
+                    <li>Download the newest version from CodeCanyon. Now extract and open <b>smart_school_update_6.4.1_to_7.0.0/step-1</b> folder.</li>
+                    <li>Import <b>migrate.sql</b> file in your Smart School database using phpmyadmin, while importing you must disable/uncheck <b>Enable foreign key checks</b> option at import page. After successfully import your database has been updated.<p><img src="assets/images/migrate_db.png" alt="img" class="img-responsive"/></p>
+					</li>				
+                    <li>After database update, copy all the files under <b>smart_school_update_6.4.1_to_7.0.0/step-2</b> folder and overwrite to under your Smart School installation folder.
+					<p><img src="assets/images/update_file_list.png" alt="img" class="img-responsive"/></p></li>
+                    <li>Check all directories permission required in <a href="#sysreq">System Requirements</a> section.</li>
+                    
+                    <li>Enter your Smart School version 7.0.0 base url details in \application\config\config.php file for base_url. So Smart School can fetch data from Smart School</li>            
+                    
+					<li><strong>Clear the cache of your browser</strong> and login to Admin Panel and check if everything is okay.</li>					
+					<li>After update all roles permissions will be reset so if you have made any changes in permissions previously then re do them again.</li>
+					<li>If you are using your own language, make sure to add key phrases in language files described in Languages section <a target="_blank" href="https://smart-school.in/article/how-to-manage-language">System Settings > Languages</a>.</li>
+                </ol>
+                <p>If you experience any trouble while updating, open <a target="_blank"href="https://support.qdocs.net">support ticket</a> and we will be happy to assist you.</p>
+
+				
+</section>
+<!--end Update-->
+
+
+<!--Changelog-->
+<section id="changelog">
+<h1 class="page-header">Smart School Changelog for minor version 7.0.0</h1><hr>
+                <p>Please visit  <a href="https://smart-school.in/category/changelog/smart-school" target="_blank">https://smart-school.in/category/changelog/smart-school</a> to see current version changelog.</p>
+</section>
+<!--end Changelog-->
+
+<!--Admin Panel-->
+<section id="freesupp">
+<h1 class="page-header">Free Help & Support</h1><hr>
+  <p>All of our items come with free support, and we have a <strong>Dedicated
+                        Support Ticket System</strong> to handle your requests. Support is limited to questions regarding the code features, bugs or problems with the application. We are not able to provide support for code customizations or third-party plugins. If you need help with anything other than minor customizations of your code then you should enlist the help of a developer or our customization service.</p>
+                <i>Please mention your <B>Codecanyon Purchase Code</B> with your support ticket.</i>
+                <p><a href="https://support.qdocs.net" class="button button-primary button-hero">Go to Support Portal</a></p>
+</section>
+<!--end Admin Panel-->
+
+<!--Student Information-->
+<section>
+  <h3>Thank you once again for the purchase!</h3><hr>
+
+                <p>Once again, thank you to trust on Smart School. We will be glad to help you if you have any questions relating to this application. No guarantees, but we will do best to assist.</p>
+                <h5 class="text-success"><i>If you like this Smart School, please do not forget to rate us 5 Star at Codecanyon</i></h5>
+
+                <h5 style="color:#1e8cbe;"><b>QDOCS Team</b></h5>
+                <div style="padding-top:70px;"></div>
+</section>
+<!--end Student Information-->
+
+        </div><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+      <footer class="main-footer">
+        <strong>Copyright © 2024 <a href="http://qdocs.in/" target="_blank">QDOCS</a></a> 
+      </footer>
+    </div><!-- ./wrapper -->
+
+    <a class="scrool-top" href="javascript:void(0)"><i class="fa fa-angle-up"></i></a> 
+    <!-- jQuery 2.2.3 -->
+    <script src="assets/js/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+     <!-- FastClick -->
+    <script src="assets/js/fastclick.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="assets/js/app.min.js"></script>
+    <!-- SlimScroll 1.3.0 -->
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/docs.js"></script>
+    <script src="assets/js/jquery.singlePageNav.min.js"></script>
+  </body>
+</html>
